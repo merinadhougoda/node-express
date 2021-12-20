@@ -1,0 +1,12 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "moduleDirectories": ["node_modules", "src"],
+  "rootDir": ".",
+  "modulePaths": ["../../src"],
+  "testEnvironment": "node",
+  "testRegex": ".spec.ts$",
+  "testTimeout": 30000,
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  }
+}
