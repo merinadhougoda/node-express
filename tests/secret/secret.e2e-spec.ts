@@ -1,5 +1,6 @@
 const request = require('supertest');
-const uuid4 = require ('uuid');
+import { v4 as uuid4 } from 'uuid';
+// const uuid4 = require ('uuid');
 import { AppFactory } from '../factory/app';
 import { createSecret } from '../factory/secret';
 

@@ -22,6 +22,8 @@ export const postSecret = async (request: Request, response: Response) => {
 };
 
 export const getSingleSecret = async (request: Request, response: Response) => {
+  // console.log(request.params.id);
   const secret = await getSecret.byId(request.params.id);
   response.status(200).json(secret);
+  
 }
